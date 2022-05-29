@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crud" />
+        <module name="portfolio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="portfolio" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="crud" options="-parameters" />
+      <module name="portfolio" options="-parameters" />
     </option>
   </component>
 </project>
